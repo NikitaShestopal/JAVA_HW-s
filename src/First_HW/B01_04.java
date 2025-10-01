@@ -1,3 +1,5 @@
+package First_HW;
+
 import java.util.Scanner;
 
 public class B01_04 {
