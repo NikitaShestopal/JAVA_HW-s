@@ -6,11 +6,12 @@ public class AirlineDemo {
     public static void main(String[] args) {
         Airline airline = new Airline("Aurora Airways");
 
-        airline.addAircraft(new PassengerAircraft("Boeing 737-800", 162, 20000, 5600, 2400, 2));
-        airline.addAircraft(new PassengerAircraft("Airbus A320", 150, 18000, 6100, 2200, 2));
-        airline.addAircraft(new CargoAircraft("Boeing 747-8F", 4, 137000, 8000, 12000, 850.0));
-        airline.addAircraft(new MixedAircraft("Antonov An-124", 10, 150000, 4800, 14000));
-        airline.addAircraft(new PassengerAircraft("Embraer 190", 100, 9000, 4000, 900, 1));
+        airline.addAircraft(new PassengerAircraft("Sukhoi Su-24", 2, 8000, 2775, 9500, 2));
+        airline.addAircraft(new PassengerAircraft("Sukhoi Su-25", 1, 4400, 2500, 7500, 2));
+        airline.addAircraft(new PassengerAircraft("Mikoyan MiG-29", 1, 3500, 2100, 8000, 2));
+        airline.addAircraft(new PassengerAircraft("General Dynamics F-16", 1, 7700, 4200, 7000, 1));
+        airline.addAircraft(new CargoAircraft("Antonov An-26", 5, 5500, 1100, 1800, 2));
+        airline.addAircraft(new PassengerAircraft("Bayraktar TB2", 0, 150, 300, 10, 1));
 
         System.out.println("Авіакомпанія: " + airline.getName());
         System.out.println("Ієрархія (класи і їх кількість):");
