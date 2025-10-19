@@ -1,4 +1,4 @@
-package Fifth_HW;
+package Fifth_HW.B05_10_F;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
