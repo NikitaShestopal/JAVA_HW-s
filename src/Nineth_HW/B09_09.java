@@ -16,7 +16,7 @@ public class B09_09 {
     static final int T3 = 1000;
     static final int T4 = 2000;
 
-    static final int SIMULATION_TIME = 10000; // Час роботи симуляції (10 сек)
+    static final int SIMULATION_TIME = 10000; // Час роботи симуляції
 
     public static void main(String[] args) {
         Factory factory = new Factory(N, K);
