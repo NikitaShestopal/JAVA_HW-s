@@ -6,7 +6,7 @@ import java.io.IOException;
 public class ParsingMain {
 
     public static void main(String[] args) {
-        processStudentFile("input01.txt");
+        processStudentFile("src/Twelfth_HW/input01.txt");
     }
 
     public static void processStudentFile(String filename) {
